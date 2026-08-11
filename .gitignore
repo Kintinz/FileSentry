@@ -1,0 +1,28 @@
+# Local runtime data and secrets
+data/*.db
+data/*.json
+data/auth.json
+data/app_key.dpapi
+data/settings.json
+data/logs/
+data/quarantine/
+
+# Python and local tooling
+.venv/
+.pytest_cache/
+.docx-review/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Local OS/editor files
+.env
+.env.*
+*.log
+Thumbs.db
+Desktop.ini

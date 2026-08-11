@@ -1,0 +1,1 @@
+"""FileSentry Tkinter interface."""
